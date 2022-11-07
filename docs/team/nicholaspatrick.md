@@ -23,7 +23,7 @@ Given below are my contributions to the project.
 * **Documentation**:
   * User Guide:
     * The undo command
-    * Possibility of adding a person with missing information 
+    * Possibility of adding a person with missing information
     * Quick edit by clicking a person card.
   * Developer Guide:
     * Quick edit manual check procedure.

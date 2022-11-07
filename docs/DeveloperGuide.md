@@ -195,7 +195,7 @@ The following are features of the Command Classes that changes the Social class 
 * `OpenCommand#execute()` - Opens a link in the Person object's Social.
 * `PreferCommand#execute()` - Sets a preferred social medial in the Person object's Social.
 
-<div markdown="span" class="alert alert-info">:information_source: **Note:** 
+<div markdown="span" class="alert alert-info">:information_source: **Note:**
 The Social's open feature are also converted into Buttons under the PersonCard of the UI component.
 When users click on the certain social media boxes of the Person in their contact, it runs the respective openXXX() feature of the Social class, where XXX is the social media account.
 </div>
@@ -873,7 +873,7 @@ testers are expected to do more *exploratory* testing.
     5. Other incorrect delete commands to try: `delete`, `delete x`, `...` (where x is larger than the list size)<br>
        Expected: Similar to 3.
 
-### Changing profile picture 
+### Changing profile picture
 
 1. Profile picture updates based on the person's `OCCUPATION`
 
@@ -959,7 +959,7 @@ testers are expected to do more *exploratory* testing.
 
 ### Adding a person to a group
 1. Adding an existing contact to a group.
-    1. Prerequisites: List all contacts using the list command. 
+    1. Prerequisites: List all contacts using the list command.
     2. Test case: `addtogroup 1 friends` <br>
        Expected: The person in index 1 of the list is added to the group "friends". Details of success command shown in status message.
     3. Test case: `addtogroup 1 my friends` <br>
